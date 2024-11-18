@@ -22,6 +22,6 @@
     </h1>
     <h2>
     ${test}</h2>
-    <button> class="btn btn-warning">Submit</button>
+    <button class="btn btn-warning">Submit</button>
 </body>
 </html>

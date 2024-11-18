@@ -21,6 +21,14 @@ public class UserController {
         model.addAttribute("test", "from controller with model");
         return "hello";
     }
+
+    @RequestMapping("/admin/user")
+    public String getUserPage(Model model) {
+        // String test = this.userService.handleHello();
+        // model.addAttribute("thao", test);
+        // model.addAttribute("test", "from controller with model");
+        return "admin/user/create";
+    }
 }
 
 /*
